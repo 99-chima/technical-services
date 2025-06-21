@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navBar{
+  position: relative;
+  bottom: 30px;
+}
+.page{
+  margin-left: 20px;
+  text-decoration: none;
+  color: #777;
+}
+.navbar-btn{
+  background: #8b62ff;
+  color: white;
+  border: #8b62ff solid 2px;
+  position: relative;
+  bottom: 5px;
+}
+.navbar-btn:hover{
+  background: linear-gradient(90deg,#8b62ff 0,#3b1bff);
+  color: white;
+  border: linear-gradient(90deg,#8b62ff 0,#3b1bff) solid 2px;
+}
+.dropdown{
+  position: relative;
+  bottom: 30px;
+}
+.homebg{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(./img-home.jpeg) center/cover;
+  height: 550px;
+position: relative;
+bottom: 30px;
+}
+.title{
+  font-size: 45px;
+  font-family: inherit;
+}
+.vivamus{
+  color: #0c0633;
+  font-size: 35px;
+  font-family: inherit;
+}
+.auctor{
+  color: #555;
+  font-family: Fira Sans,Helvetica,Arial,sans-serif;
+}
+.consec{
+  color: #0c0633;
+  font-family: inherit;
+  font-size: 25px;
+}
