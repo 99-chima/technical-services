@@ -3,11 +3,11 @@ import {Link} from "react-router-dom";
 const Navbar = () => {
     return(
         <>  
-        <div className="mt-3">
-        <img className="ms-5 px-5 logo" src={pagelogo} alt="" />
+        <div className="mt-3 fixed-top bg-white">
+        <img className="ms-5 px-5 mt-3 logo" src={pagelogo} alt="" />
             
         <nav className="navbar navbar-expand-lg mb-4">
-      <div className="container-fluid">
+      <div className="container-fluid bg-white">
         <Link className="navbar-brand" to="/"></Link>
 
         {/* Toggle button for dropdown */}
