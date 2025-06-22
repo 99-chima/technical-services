@@ -5,7 +5,9 @@ import {Link} from "react-router-dom";
 function Home (){
     return(
         <>
-        <div className="homebg">
+                <>
+         {/* intro */}
+        <div className="homebg mt-5 pt-5">
             <div className="container">
                 <div className="row">
                 <div className="col-md-6 pt-5 mt-5">
@@ -16,6 +18,7 @@ function Home (){
                 </div>
             </div>
         </div>
+         {/* vivamus services */}
         <div className="container">
             <div className="row mt-5">
                 <div className="col-md-12 text-center">
@@ -45,6 +48,31 @@ function Home (){
                 </div>
             </div>
         </div>
+         {/* carousel section */}
+         <div className="container">
+            <div className="row mt-5">
+                <div className="col-md-12">
+                <div className="carousel slide" id="slides-with-indicators" data-bs-ride= "carousel" data-bs-interval="2000">
+                    <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img className="d-block w-100" src={firstphoto} alt="" />
+                    </div>
+                    <div className="carousel-item">
+                        <img className="d-block w-100" src={secondphoto} alt="" />
+                    </div>
+                    <div className="carousel-item">
+                        <img className="d-block w-100" src={firstphoto} alt="" />
+                    </div>
+                    </div>
+                    <div className="carousel-indicators">
+                         <button type="button" data-bs-target="#slides-with-indicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#slides-with-indicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                       <button type="button" data-bs-target="#slides-with-indicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+                </div>
+                </div>
+            </div>
+         </div>
         </>
     );
 }
