@@ -74,3 +74,45 @@
   opacity: 1;
   background-color: #555; 
 }
+.features{
+  background: #0c0633;
+}
+.feature-title{
+  font-size: 30px;
+  font-family: inherit;
+}
+.list-title{
+  color: #0c0633;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 30px;
+}
+.list-text{
+  color: #555;
+  font-size: 15px;
+  font-family: Fira Sans,Helvetica,Arial,sans-serif;
+}
+footer{
+  border-top: 1px solid #eee;
+}
+.about-us{
+  color: #0c0633;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+}
+.form-btn{
+  background: #8b62ff;
+  color: white;
+  border: #8b62ff solid 2px;
+  height: 38px;
+  margin-top: 23px;
+  position: relative;
+  right: 51px;
+  z-index: 1;
+}
+.form-btn:hover{
+  background: linear-gradient(90deg,#8b62ff 0,#3b1bff);
+  color: white;
+  border: linear-gradient(90deg,#8b62ff 0,#3b1bff) solid 2px;
+}
