@@ -29,22 +29,22 @@ const Navbar = () => {
         >
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-4 navBar">
               <li className="nav-item">
-                <Link className="nav-link" to="/" data-bs-dismiss="offcanvas">Home</Link>
+                <Link className="nav-link">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about" >About</Link>
+                <Link className="nav-link" to="/about">About</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/pricing" data-bs-dismiss="offcanvas">pricing</Link>
+                <Link className="nav-link" to="/pricing">pricing</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact" data-bs-dismiss="offcanvas">Contact</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/components" data-bs-dismiss="offcanvas">Components</Link>
+                <Link className="nav-link" to="/components">Components</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link btn navbar-btn text-uppercase mt-2" to="/download" data-bs-dismiss="offcanvas">download</Link>
+                <Link className="nav-link btn navbar-btn text-uppercase mt-2" to="/download">download</Link>
               </li>
             </ul>
           
