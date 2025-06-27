@@ -8,7 +8,7 @@ function Pricing (){
             <div className="row mt-5 pt-5">
                 <div className="col-md-12 text-center">
                     <h1 className="type mt-5">Pricing</h1>
-                    <p className="list-text">Adipiscing vitae proin sagittis nisl rhoncus mattis. Bibendum enim facilisis gravida neque convallis a cras <br /> semper auctor. Sit amet risus nullam eget felis eget. Metus dictum at tempor commodo ullamcorper a lacus <br /> vestibulum. Sit amet facilisis magna etiam tempor orci eu. Eleifend mi in nulla posuere. Et magnis dis <br /> parturient montes nascetur ridiculus mus mauris vitae.</p>
+                    <p className="list-text pt-3">Adipiscing vitae proin sagittis nisl rhoncus mattis. Bibendum enim facilisis gravida neque convallis a cras <br /> semper auctor. Sit amet risus nullam eget felis eget. Metus dictum at tempor commodo ullamcorper a lacus <br /> vestibulum. Sit amet facilisis magna etiam tempor orci eu. Eleifend mi in nulla posuere. Et magnis dis <br /> parturient montes nascetur ridiculus mus mauris vitae.</p>
                 </div>
             </div>
         </div>
