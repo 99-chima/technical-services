@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/technical-service/static/css/main.f4e1fd6a.css",
+    "main.js": "/technical-service/static/js/main.7a60c5c7.js",
+    "static/js/453.22500edb.chunk.js": "/technical-service/static/js/453.22500edb.chunk.js",
+    "static/media/img-06.png": "/technical-service/static/media/img-06.2106458cc28760545d17.png",
+    "static/media/img-02.jpeg": "/technical-service/static/media/img-02.3c4c3986d355de92f5df.jpeg",
+    "static/media/img-01.jpeg": "/technical-service/static/media/img-01.4bf8f5c805911ee9f672.jpeg",
+    "static/media/img-home.jpeg": "/technical-service/static/media/img-home.26cf80b8fb3128f49061.jpeg",
+    "static/media/img-03.jpeg": "/technical-service/static/media/img-03.a6b4d0b30bbd7236b012.jpeg",
+    "static/media/img-05.jpeg": "/technical-service/static/media/img-05.9923aeecf6de5196a477.jpeg",
+    "static/media/img-07.jpeg": "/technical-service/static/media/img-07.34d6078d088b3881904c.jpeg",
+    "static/media/apple.jpeg": "/technical-service/static/media/apple.aaf3c8fb5ff9cc2b66ec.jpeg",
+    "static/media/play.jpeg": "/technical-service/static/media/play.ede7a33eaaea84b86215.jpeg",
+    "index.html": "/technical-service/index.html",
+    "main.f4e1fd6a.css.map": "/technical-service/static/css/main.f4e1fd6a.css.map",
+    "main.7a60c5c7.js.map": "/technical-service/static/js/main.7a60c5c7.js.map",
+    "453.22500edb.chunk.js.map": "/technical-service/static/js/453.22500edb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4e1fd6a.css",
+    "static/js/main.7a60c5c7.js"
+  ]
+}
